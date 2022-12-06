@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML match app</title>
+</head>
+<body>
+    <header>
+        <h1>Australische herder </h1>
+    </header>
+    <main>
+    <section id="intro">
+        <h2>introductie</h2>
+        <img src="foto's/australische-herder-1.jpg" alt=""
+        width="300">
+        <p><a href="https://www.australischeherder.be"
+            >link naar website</a></p>
+    </section>
+    <section id="lijstjes">
+        <h2>welke soorten hebben we</h2>
+        <ul>
+            <li>merle</li>
+            <li>red merle</li>
+            <li>zwart</li>
+            <li>bruin</li>
+        </ul>
+        <h2>sexualiteit</h2>
+        <ol>
+            <li>rue</li>
+            <li>teven</li>
+        </ol>
+
+    </section>
+
+    <section id="formulier">
+        <form action="">
+            <fieldset><legend>wat is jouw naam?</legend>
+                <input type="text" placeholder="schrijf hier jouw naam">
+            </fieldset>
+            <fieldset>
+                <legend>hoeveel honden wenst u?</legend>
+                <input type="number" name="leeftijd" min="1" max="5">
+            </fieldset>
+            <fieldset>
+                <legend>Welke grootte wenst u?</legend>
+                <input type="radio" name="groote"value= mini>mini
+                <input type="radio" name="groote"value= normale groote>normale groote
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Welke seksualiteit wenst u?
+                </legend>
+                <input type="radio" name="gender"value= teef>teef
+                <input type="radio" name="gender"value= rue merle>rue
+            </fieldset>
+            <fieldset>
+                <legend>
+                    welke kleur zou je je hond graag hebben?
+                </legend>
+                <input type="checkbox" name="merle">merle
+                <input type="checkbox" name="red merle">red merle
+                <input type="checkbox" name="zwart">zwart
+                <input type="checkbox" name="bruin">bruin
+            </fieldset>
+            <fieldset>
+                <legend>
+                    opmerkingen:
+                </legend>
+                <textarea name="opmerking" cols="30" rows="10" placeholder="Hier schrijf ik mijn opmerking."></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>hoe heeft u ons gevonden</legend>
+                <select name="enquete">
+                    <option value="vrienden">vrienden</option>
+                    <option value="sociale media">sociale media</option>
+                    <option value="advertentie">advertentie</option>
+                    <option value="anderen">anderen</option>
+                </select>
+            </fieldset>
+            <button type="submit">verzenden</button>
+            <button type="reset">herstellen</button>
+        </form>
+
+    </section>
+    </main>
+
+</body>
+</html>

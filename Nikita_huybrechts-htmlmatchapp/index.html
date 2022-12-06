@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTLM match app</title>
+</head>
+<body>
+    <header>
+        <h1>4GTa HTML App!</h1>
+    </header>
+    <main>
+    <section id="intro">
+        <h2>introductie</h2>
+        <img src="foto's/boek.jpg" alt=""
+        width="300">
+        <p><a href="https://www.coolblue.be/nl?clickref=1100lw9UavSV&utm_source=performancehorizon&utm_medium=affiliate&utm_campaign=Start+page&utm_content=1100lw9UavSV&utm_term=1011ldsM7&ref=293531&PHGref=1100lw9UavSV&cmt=c_ph,apm_Start+page_,acid1011l124,acr_1011ldsM7,aclr_1100lw9UavSV"
+            >klik hier voor een nieuw boek</a></p>
+    </section>
+    <section id="lijstjes">
+        <h2>dingen die mogen in een klaslokaal</h2>
+        <ul>
+            <li>luisteren</li>
+            <li>opletten</li>
+            <li>studeren</li>
+        </ul>
+        <h2>dingen dat je niet moegen in een klaslokaal</h2>
+        <ol>
+            <li>roepen</li>
+            <li>eten</li>
+            <li>leerkracht irriteren</li>
+        </ol>
+
+    </section>
+
+    <section id="formulier">
+        <form action="">
+            <fieldset><legend>wat is jouw naam?</legend>
+                <input type="text" placeholder="schrijf hier jouw naam">
+            </fieldset>
+            <fieldset>
+                <legend>wat is jouw leeftijd?</legend>
+                <input type="number" name="leeftijd" min="1" max="99">
+            </fieldset>
+            <fieldset>
+                <legend>
+                    welke kleur heeft het klaslokaal?
+                </legend>
+                <input type="radio" name="kleur"value= rood>rood lokaal
+                <input type="radio" name="kleur"value= groen>groen lokaal
+                <input type="radio" name="kleur"value= blauw>blauw lokaal
+            </fieldset>
+            <fieldset>
+                <legend>
+                    wat is er in het klaslokaal aanwezig?
+                </legend>
+                <input type="checkbox" name="aanwezig" value="projetor">projector
+                <input type="checkbox" name="aanwezig" value="stoelen">stoelen
+                <input type="checkbox" name="aanwezig" value="banken">banken
+            </fieldset>
+            <fieldset>
+                <legend>
+                    opmerking:
+                </legend>
+                <textarea name="opmerking" cols="30" rows="10" placeholder="Hier schrijf ik mijn opmerking."></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>hoe heeft u ons gevonden</legend>
+                <select name="enquete">
+                    <option value="vrienden">vrienden</option>
+                    <option value="sociale media">sociale media</option>
+                    <option value="advertentie">advertentie</option>
+                    <option value="anderen">anderen</option>
+                </select>
+            </fieldset>
+            <button type="submit">verzenden</button>
+            <button type="reset">herstellen</button>
+        </form>
+
+    </section>
+    </main>
+
+</body>
+</html>
