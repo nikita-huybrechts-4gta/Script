@@ -2,3 +2,10 @@ body{
     background-color: rgb(133, 175, 224);
 }
 
+#about {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+}
