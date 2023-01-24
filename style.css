@@ -1,11 +1,29 @@
 body{
-    background-color: rgb(133, 175, 224);
+    background-color: rgb(1, 36, 79);
+    font-family: sans-serif;
+    color: aliceblue;
 }
 
 #about {
     display: flex;
+    flex: auto;
+    padding: 20px;
+    margin: 1vh;
+}
+
+h1 {
+    margin: 5vw;
 }
 
 .col {
     width: 50%;
 }
+
+a {
+    color: aliceblue;
+}
+
+a:hover{
+    color: black;
+}
+
