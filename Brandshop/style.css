@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: burlywood;
+}
+
+header nav li {
+    display: inline;
+}
