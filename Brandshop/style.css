@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,8 @@
 
 body {
     background-color: bisque;
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .flex-container {
@@ -15,13 +19,41 @@ body {
 
 header {
     background-color: burlywood;
-    padding: 3%;
+    padding: 10px;
 }
 
 header nav li {
     display: inline;
 }
 
+header nav a{
+    color: black;
+}
+
 header img {
     width: 50px;
+}
+
+header i{
+    margin-left: 5px;
+    color: black;
+    font-size: 16px;
+}
+
+header input {
+    border-radius: 10px;
+    padding: 3px;
+    width: 110px;
+}
+
+header i:hover {
+    color: gray
+}
+
+video{
+    width: 100%;
+}
+
+footer{
+    
 }
