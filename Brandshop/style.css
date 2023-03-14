@@ -60,6 +60,10 @@ video{
     overflow: hidden;
 }
 
-footer{
-    
+footer a{
+    color: black;
+}
+
+Footer a:hover{
+    color: gray;
 }
