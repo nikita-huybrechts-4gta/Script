@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 header {
@@ -49,6 +50,15 @@ header input {
 
 header i:hover {
     color: gray
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.flex-item {
+    flex: 1;
 }
 
 video{
