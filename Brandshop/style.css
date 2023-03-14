@@ -54,6 +54,11 @@ video{
     width: 100%;
 }
 
+.videoframe{
+    max-height: 50vh;
+    overflow: hidden;
+}
+
 footer{
     
 }
