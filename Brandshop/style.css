@@ -65,6 +65,11 @@ video{
     width: 100%;
 }
 
+h2{
+    margin-bottom: 2ram;
+    font-size: 3ram;
+}
+
 .videoframe{
     max-height: 100vh;
     overflow: hidden;
