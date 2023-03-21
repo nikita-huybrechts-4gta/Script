@@ -16,7 +16,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
+}
+
+.flex-item {
+    flex: 1;
 }
 
 header {
@@ -28,7 +33,7 @@ header nav li {
     display: inline;
 }
 
-header nav a{
+header nav a {
     color: black;
 }
 
@@ -36,7 +41,7 @@ header img {
     width: 50px;
 }
 
-header i{
+header i {
     margin-left: 5px;
     color: black;
     font-size: 16px;
@@ -52,33 +57,35 @@ header i:hover {
     color: gray
 }
 
-img {
+main img {
     display: block;
     width: 100%;
+    aspect-ratio: 5 / 6;
+    object-fit: cover;
 }
 
-.flex-item {
-    flex: 1;
-}
-
-video{
+video {
     width: 100%;
 }
 
-h2{
+h2 {
     margin-bottom: 2ram;
     font-size: 3ram;
 }
 
-.videoframe{
+.videoframe {
     max-height: 100vh;
     overflow: hidden;
 }
 
-footer a{
+#featured {
+    padding: 0 5vw;
+}
+
+footer a {
     color: black;
 }
 
-Footer a:hover{
+Footer a:hover {
     color: gray;
 }
