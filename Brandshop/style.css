@@ -110,12 +110,44 @@ figcaption {
     border-radius: 50%;
 }
 
-footer a {
-    color: black;
+footer i {
+    margin-left: 1ch;
+    font-size: 1.2rem;
 }
 
-Footer a:hover {
+footer i:hover {
+    transform: scale(1.1);
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
     color: gray;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: whitesmoke;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 20;
+    text-transform: uppercase;
 }
 
 #membership .flex-item {
