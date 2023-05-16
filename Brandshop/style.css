@@ -111,6 +111,23 @@ figcaption {
     border-radius: 50%;
 }
 
+#membership .flex-item {
+    padding: 3rem;
+}
+
+.highlight {
+    background-color: white;
+    color: black;
+}
+
+.achtergrondfoto {
+    background-image: url(statics/img/achtergrond\ foto\ 1.webp);
+    background-size: cover;
+    padding: 1rem;
+    align-self: stretch;
+
+}
+
 footer i {
     margin-left: 1ch;
     font-size: 1.2rem;
@@ -149,21 +166,4 @@ footer ul li:first-child a {
     font-size: 1rem;
     font-weight: 20;
     text-transform: uppercase;
-}
-
-#membership .flex-item {
-    padding: 3rem;
-}
-
-.highlight {
-    background-color: white;
-    color: black;
-}
-
-.achtergrondfoto {
-    background-image: url(statics/img/achtergrond\ foto\ 1.webp);
-    background-size: cover;
-    padding: 1rem;
-    align-self: stretch;
-
 }
