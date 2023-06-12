@@ -151,6 +151,10 @@ footer {
     color: whitesmoke;
 }
 
+footer .flex-container {
+    align-items: start;
+}
+
 footer .flex-container:first-child {
     margin-bottom: 2rem;
 }

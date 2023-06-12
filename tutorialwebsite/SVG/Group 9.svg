@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="54" viewBox="0 0 310 54">
+  <g id="Group_9" data-name="Group 9" transform="translate(-36 -23)">
+    <g id="Group_1" data-name="Group 1">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="27" cy="27" r="27" transform="translate(36 23)"/>
+      <path id="Ellipse_1_-_Outline" data-name="Ellipse 1 - Outline" d="M27,1A26.007,26.007,0,0,0,16.88,50.957,26.007,26.007,0,0,0,37.12,3.043,25.836,25.836,0,0,0,27,1m0-1A27,27,0,1,1,0,27,27,27,0,0,1,27,0Z" transform="translate(36 23)"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M20.5,0,41,36H0Z" transform="translate(85.5 29.5) rotate(90)" fill="#7de1ff"/>
+      <path id="Polygon_1_-_Outline" data-name="Polygon 1 - Outline" d="M20.5,2.021,1.72,35H39.28L20.5,2.021M20.5,0,41,36H0Z" transform="translate(85.5 29.5) rotate(90)" fill="#97e6ec"/>
+    </g>
+    <text id="primetime_tutorial" data-name="primetime tutorial" transform="translate(226 59)" fill="#7de1ff" font-size="30" font-family="SegoeUIHistoric, Segoe UI Historic"><tspan x="-119.575" y="0">primetime tutorial</tspan></text>
+  </g>
+</svg>
