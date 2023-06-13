@@ -54,7 +54,7 @@ main {
 footer {
     background-color: var(--bgc-02);
     color: aliceblue;
-    padding: 5px;
+    padding: 10px;
 }
 
 .flex-container {
