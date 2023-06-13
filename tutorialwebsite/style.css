@@ -24,10 +24,12 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     background-color: blue;
+    padding: 5px;
 }
 
 header nav {
     justify-self: end;
+    padding: 5px;
 }
 
 header li {
