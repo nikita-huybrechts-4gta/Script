@@ -3,7 +3,7 @@
 :root {
     --bgc-01: hsl(0, 0%, 100%);
     --bgc-02: hsl(0, 0%, 0%);
-    --txt-01: hsl(0, 0%, 90%);
+    --txt-01: hsl(0, 0%, 0%);
 }
 
 * {
@@ -33,5 +33,10 @@ header li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+}
+
+footer {
+    background-color: var(--bgc-02);
+    color: aliceblue;
 }
 
