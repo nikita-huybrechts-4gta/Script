@@ -54,5 +54,15 @@ main {
 footer {
     background-color: var(--bgc-02);
     color: aliceblue;
+    padding: 5px;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+    display: inline;
+}
