@@ -21,18 +21,32 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 2fr 200px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    background-color: blue;
+}
+
+header nav {
+    justify-self: end;
 }
 
 header li {
     display: inline;
+    color: white;
+}
+
+header a {
+    color: wheat;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+}
+
+main {
+    padding: 1rem;
 }
 
 footer {
